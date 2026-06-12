@@ -280,7 +280,7 @@ Aspiring Data Analyst passionate about leveraging data analytics and financial i
 
 GitHub: https://github.com/ayushverma-DA
 
-LinkedIn: *(Add your LinkedIn profile link here)*
+LinkedIn: https://www.linkedin.com/in/ayush-verma-88aba3281/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BH4Py246WSpyeLW1DV%2Bf8Iw%3D%3D
 
 ---
 
