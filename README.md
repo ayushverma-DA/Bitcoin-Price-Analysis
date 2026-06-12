@@ -1,60 +1,47 @@
-# Bitcoin Price Analysis
+## Portfolio Growth Analysis
 
-## Project Overview
+A hypothetical investment of **$10,000 in Bitcoin from January 2020** was analyzed to evaluate long-term investment performance.
 
-This project analyzes Bitcoin historical price data from 2020 onwards to identify market trends, volatility patterns, and significant events affecting Bitcoin performance.
+### Key Findings
 
-## Tools Used
+- The initial investment grew significantly over the analysis period despite experiencing periods of substantial volatility.
+- The portfolio reached a peak value of approximately **$175,000**, representing a return of over **1,600%**.
+- This analysis highlights Bitcoin's exceptional long-term growth potential while emphasizing the importance of managing investment risk.
 
-- Python
-- Pandas
-- Matplotlib
-- Yahoo Finance API (yfinance)
+![Portfolio Growth](Images/portfolio_growth.png)
 
-## Dataset
+## Strategy Backtesting: EMA 20/50 Crossover Strategy
 
-Bitcoin historical data was fetched directly from Yahoo Finance using the `yfinance` Python library.
+An **EMA 20/50 crossover trading strategy** was implemented and compared against a traditional Buy & Hold approach to assess whether trend-following techniques could improve investment performance.
 
-## Key Analyses Performed
+### Results
 
-- Historical Bitcoin Price Trend Analysis
-- Daily Return Calculation
-- 20-Day EMA Analysis
-- 50-Day EMA Analysis
-- Volatility Analysis
-- Best and Worst Trading Day Identification
+- **Buy & Hold Final Portfolio Value:** $88,003
+- **EMA Strategy Final Portfolio Value:** $133,216
+- **Strategy Win Rate:** 51.22%
 
-## Key Findings
+### Key Insight
 
-- Bitcoin experienced significant bull runs during 2021 and 2024–2025.
-- The highest daily gain (+18.75%) occurred on 2021-02-08 following Tesla's Bitcoin investment announcement.
-- The largest daily loss (-37.17%) occurred during the COVID-19 market crash on 2020-03-12.
-- EMA crossovers effectively highlighted bullish and bearish market phases.
-- Bitcoin exhibited high volatility, indicating both substantial return potential and investment risk.
+Despite a relatively modest win rate, the EMA crossover strategy outperformed the Buy & Hold approach by approximately **51%**, suggesting that trend-following methods can effectively reduce downside exposure and improve returns in highly volatile markets.
 
-## Business Insights
+![Strategy Comparison](Images/strategy_vs_buyhold.png)
 
-- Institutional adoption can significantly impact Bitcoin prices.
-- Global macroeconomic events strongly influence cryptocurrency markets.
-- EMA indicators can help identify long-term market trends.
-- Investors should consider both volatility and trend indicators while making investment decisions.
+## Risk-Adjusted Performance Analysis
 
-## Visualizations Included
+To evaluate whether Bitcoin's returns adequately compensated investors for the level of risk undertaken, the **Sharpe Ratio** was calculated.
 
-- Bitcoin Closing Price Trend
-- Daily Returns Analysis
-- EMA 20 vs EMA 50 Analysis
-- Volatility Analysis
+### Results
 
-## Future Improvements
+- **Sharpe Ratio:** 0.72
 
-- Sharpe Ratio Analysis
-- Monthly Return Heatmaps
-- Trading Strategy Backtesting
-- Risk-Adjusted Performance Metrics
+### Interpretation
 
-## Author
+A Sharpe Ratio of **0.72** indicates that while Bitcoin generated substantial returns, those returns were accompanied by significant volatility. This finding reinforces the importance of risk management and portfolio diversification when investing in cryptocurrencies.
 
-Ayush Verma
+### Key Insight
 
-GitHub: https://github.com/ayushverma-DA
+Bitcoin offers considerable return potential; however, investors should carefully consider the associated risks and employ appropriate strategies to manage portfolio volatility.
+
+## Overall Conclusion
+
+This project demonstrates how data analytics techniques can be applied to financial markets to derive meaningful insights related to price trends, investment performance, strategy effectiveness, and risk management. The analyses indicate that while Bitcoin has delivered exceptional long-term returns, disciplined investment strategies and risk assessment frameworks can play a crucial role in improving investment outcomes.
